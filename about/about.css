@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+
+:root {
+    --p1-bg: rgb(255, 255, 255);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--p1-bg);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    color: var(--grey);
+    background-color: var(--bg-white);
+    display: flex;
+    justify-content: space-between;
+    min-height: 4em;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: "Noto Sans Mono";
+}
+
+.logo {
+    margin-left: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-self: center;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2rem;
+}
+li {
+    margin: 1rem;
+}
+
+.regular {
+    font-weight: 400;
+    font-family: "Poppins", serif;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+
+.margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--p1-bg);
+}
+
+.text-cont-box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-font {
+    font-size: 1.4em;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    /* text-transform: uppercase; */
+}
+
+.title-cont {
+    /* colors, fonts */
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    color: rgb(120, 120, 120);
+    font-size: 40px;
+    font-family: "Poppins", serif;
+}
+
+.bold {
+    color: rgb(26, 40, 200);
+    font-weight: 700;
+}
+
+.regular {
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+p {
+    color: rgb(39, 37, 37);
+    margin: 2rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    font-family: "Poppins", serif;
+}
+
+.home {
+    font-family: "Noto Sans Mono", monospace;
+    justify-content: center;
+}

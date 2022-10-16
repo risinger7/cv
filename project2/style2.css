@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+
+:root {
+    --p2-bg: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--p2-bg);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    color: var(--grey);
+    background-color: var(--bg-white);
+    display: flex;
+    justify-content: space-between;
+    min-height: 4em;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: "Noto Sans Mono";
+}
+
+.logo {
+    margin-left: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-self: center;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2rem;
+}
+li {
+    margin: 1rem;
+}
+
+.project-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--p2-bg);
+}
+
+.p-font {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    /* text-transform: uppercase; */
+}
+
+.small-header {
+    color: rgb(33, 33, 33);
+    background-color: var(--p1-bg);
+    font-family: "Noto Sans Mono", monospace;
+}
+
+.top-cont {
+    display: flex;
+    margin: 3rem;
+}
+
+.title-cont {
+    /* colors, fonts */
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: "Poppins", serif;
+}
+
+.bold {
+    color: rgb(23, 39, 214);
+    font-weight: 700;
+}
+
+.regular {
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cell-image {
+    max-width: 1200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-container {
+    background-color: var(--p1-bg);
+    padding: 2rem;
+    /* border: 4px solid black; */
+}
+
+.text-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin: 2rem;
+    max-width: 800px;
+    margin-top: 1rem;
+    font-weight: 100;
+    font-family: "Poppins", serif;
+}
+
+.home {
+    margin: 2rem;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Noto Sans Mono";
+}
